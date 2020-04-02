@@ -10,3 +10,5 @@ _software/*/docs
 _software/_*_repo
 _specs/*/
 !_specs/*.*
+
+Gemfile.lock
