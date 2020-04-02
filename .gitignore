@@ -1,0 +1,12 @@
+_site/
+
+*.sublime-*
+
+.sass-*
+
+_projects/*/.git
+_software/*/.git
+_software/*/docs
+_software/_*_repo
+_specs/*/
+!_specs/*.*

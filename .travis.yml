@@ -1,0 +1,22 @@
+language: ruby
+cache: bundler # caching bundler gem packages will speed up build
+branches:
+  only:
+  - master
+rvm:
+  - 2.6
+sudo: false # route your build to the container-based infrastructure for a faster build
+
+install:
+  - bundle install
+  - gem install jekyll
+
+script:
+  - bundle exec jekyll build
+
+deploy:
+  provider: s3
+  github_token: $GITHUB_TOKEN
+  verbose: true
+  edge: true
+  local-dir: _site/
