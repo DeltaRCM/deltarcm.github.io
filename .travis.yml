@@ -10,6 +10,7 @@ sudo: false # route your build to the container-based infrastructure for a faste
 install:
   - bundle install
   - gem install jekyll
+  - pip install --user awscli
 
 script:
   - bundle exec jekyll build
