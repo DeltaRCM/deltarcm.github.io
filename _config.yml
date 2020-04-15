@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "deltarcm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  DeltaRCM
 tagline: Reduced complexity delta modeling system.
-
+refresh_remote_data: 'always'
 
 # Build settings
 markdown: kramdown
