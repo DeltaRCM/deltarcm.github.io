@@ -16,11 +16,19 @@ script:
   - bundle exec jekyll build
 
 deploy:
-  provider: s3
-  access_key_id: $AWS_ACCESS_KEY_ID
-  secret_access_key: $AWS_SECRET_ACCESS_KEY
-  bucket: $AWS_BUCKET_NAME
-  region: $AWS_REGION_NAME
-  verbose: true
-  edge: true
-  local-dir: _site/
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY_ID
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    bucket: $AWS_BUCKET_NAME
+    region: $AWS_REGION_NAME
+    verbose: true
+    edge: true
+    local-dir: _site/
+  - provider: pages:git
+    github_token: $GITHUB_TOKEN
+    committer_from_gh: true
+    repo: DeltaRCM/deltarcm.github.io
+    target_branch: master
+    local-dir: _site/
+    edge: true
+    
