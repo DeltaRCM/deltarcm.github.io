@@ -44,6 +44,7 @@ exclude:
   - /_projects/*/assets/css/*
   - /_projects/**/docs/*
   - .sass-cache/
+  - /scripts/
 
 permalink: /blog/:month-:day-:year/:title/
 

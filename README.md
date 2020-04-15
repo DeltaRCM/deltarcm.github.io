@@ -5,11 +5,9 @@ Materials for the [deltarcm.org](https://deltarcm.org) website.
 
 ## Hosting information
 
-The site is set up to build the Jekyll contents in this repository (https://github.com/DeltaRCM/deltarcm.org) on Travis CI, and then deploy the built site to AWS S3 for hosting. 
-The site is delivered via the AWS Cloudfront service, which enables an ssl connection. 
+The site is set up to build the Jekyll contents in this repository (https://github.com/DeltaRCM/deltarcm.org) on Travis CI, and then deploy the built site to GitHub Pages for hosting.
 
-As a result, changes on the S3 bucket may not be reflected at deltarcm.org for up to 24 hours. 
-You can always hit the S3 site directly at http://deltarcm.org.s3-website.us-east-2.amazonaws.com/, to see the non-Cloudfront-cached version.
+The site is served behind the alias `deltarcm.org`, but you can always hit the site directly at http://deltarcm.github.io.
 
 
 ### Running a local instance
