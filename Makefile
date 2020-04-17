@@ -14,7 +14,7 @@ clean:
 	rm -rf _projects/*/.git; \
 	rm -rf _projects/*/_software/*/.git; \
 	rm -rf _projects/*/_specs/*/.git; \
-	git clean -xdf
+# 	git clean -xdf
 
 build: clean # install include-yarn-deps
 	$(JEKYLL) build
