@@ -12,3 +12,5 @@ _specs/*/
 !_specs/*.*
 
 Gemfile.lock
+
+.jekyll-cache/
