@@ -8,8 +8,8 @@ excerpt: >-
 ---
 
 
-This project is beginning to come online, and with that, we needed a new website. 
-Our website now runs off of AWS S3, and is built on Jekyll.
+This project is beginning to come on-line, and with that, we needed a new website. 
+Our website now runs on GitHub Pages, and is built with Jekyll.
 
 The site is built using the [jekyll-theme-open-project](https://github.com/riboseinc/jekyll-theme-open-project) theme, generously provided by Ribose Inc.
 Huge thanks to the developers there for making this awesome theme open source.
