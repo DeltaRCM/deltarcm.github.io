@@ -6,4 +6,5 @@ home_url: https://DeltaRCM.github.io/pyDeltaRCM_WMT
 tags: [Python, modeling]
 site:
   git_repo_url: "https://github.com/DeltaRCM/pyDeltaRCM_WMT"
+  git_repo_branch: "develop"
 ---
