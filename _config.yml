@@ -29,10 +29,7 @@ exclude:
   - vendor/ruby/
   - 'Make*'
   - '*sublime-*'
-  - '/**/.git/*'
   - .git
-  - /_projects/*/.git/*
-  - '/_projects/*/.git/*'
   - "*.git"
   - private/
   - home-hero.html
@@ -40,11 +37,9 @@ exclude:
   - nav-links.html
   - flavor-sample-summary.html
   - project-nav.html
-  - /_projects/**/_*_repo/*
-  - /_projects/*/assets/css/*
-  - /_projects/**/docs/*
   - .sass-cache/
-  - /scripts/
+  - private/
+  - assets/files/*.bib
 
 permalink: /blog/:month-:day-:year/:title/
 
