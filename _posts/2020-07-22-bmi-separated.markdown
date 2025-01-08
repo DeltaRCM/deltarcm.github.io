@@ -2,7 +2,7 @@
 layout: post
 title:  "Creation of a separate repository for the Basic Model Interface"
 date:   2020-07-22 13:50:00 -0600
-categories: website
+categories: news
 excerpt: >-
   The pyDeltaRCM gets a separate repo for BMI support.
 ---

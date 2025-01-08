@@ -2,7 +2,7 @@
 layout: post
 title:  "DeltaRCM website overhaul"
 date:   2020-03-31 12:40:00 -0600
-categories: website
+categories: news
 excerpt: >-
   The DeltaRCM website gets an overhaul.
 ---
